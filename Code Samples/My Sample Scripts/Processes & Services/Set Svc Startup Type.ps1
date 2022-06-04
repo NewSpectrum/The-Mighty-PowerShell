@@ -1,0 +1,1 @@
+Get-Service ssh* | Select-Object | Set-Service -StartupType Automatic
